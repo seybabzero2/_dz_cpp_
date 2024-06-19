@@ -8,8 +8,6 @@ void print_array(const int* arr, int size) {
   }
   cout << endl;
 }
-
-
 int* filter_simple(const int* original_numbers, int size, int& filtered_size) {
   int* filtered_primes = new int[size];
   filtered_size = 0;
